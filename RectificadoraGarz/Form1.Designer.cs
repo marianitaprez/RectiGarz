@@ -56,7 +56,7 @@
             // 
             // MenuVertical
             // 
-            this.MenuVertical.BackColor = System.Drawing.Color.SteelBlue;
+            this.MenuVertical.BackColor = System.Drawing.Color.Brown;
             this.MenuVertical.Controls.Add(this.btnTareas);
             this.MenuVertical.Controls.Add(this.btnEmpleados);
             this.MenuVertical.Controls.Add(this.btnDepa);
