@@ -103,6 +103,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnRefa = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -779,20 +780,38 @@
             this.btnRefa.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefa.ForeColor = System.Drawing.Color.White;
             this.btnRefa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRefa.Location = new System.Drawing.Point(683, 409);
+            this.btnRefa.Location = new System.Drawing.Point(712, 456);
             this.btnRefa.Name = "btnRefa";
-            this.btnRefa.Size = new System.Drawing.Size(121, 33);
+            this.btnRefa.Size = new System.Drawing.Size(201, 33);
             this.btnRefa.TabIndex = 7;
-            this.btnRefa.Text = "REFACCIONES";
-            this.btnRefa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRefa.Text = "AGREGAR REFACCIONES";
+            this.btnRefa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRefa.UseVisualStyleBackColor = false;
             this.btnRefa.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightCoral;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(34, 456);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 33);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "GUARDAR";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(955, 450);
+            this.ClientSize = new System.Drawing.Size(955, 501);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnRefa);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCerrar);
@@ -884,5 +903,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnRefa;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -94,6 +94,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnRefa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -689,11 +690,29 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "REFACCIONES";
             // 
+            // btnRefa
+            // 
+            this.btnRefa.BackColor = System.Drawing.Color.LightCoral;
+            this.btnRefa.FlatAppearance.BorderSize = 0;
+            this.btnRefa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnRefa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefa.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefa.ForeColor = System.Drawing.Color.White;
+            this.btnRefa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRefa.Location = new System.Drawing.Point(828, 424);
+            this.btnRefa.Name = "btnRefa";
+            this.btnRefa.Size = new System.Drawing.Size(101, 33);
+            this.btnRefa.TabIndex = 8;
+            this.btnRefa.Text = "GUARDAR";
+            this.btnRefa.UseVisualStyleBackColor = false;
+            this.btnRefa.Click += new System.EventHandler(this.btnRefa_Click);
+            // 
             // Refacciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 450);
+            this.ClientSize = new System.Drawing.Size(972, 472);
+            this.Controls.Add(this.btnRefa);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCerrar);
@@ -775,5 +794,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRefa;
     }
 }

@@ -16,5 +16,12 @@ namespace RectificadoraGarz
         {
             InitializeComponent();
         }
+
+        private void btnAcceso_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form1();
+            formulario.Visible = true;
+            Visible = false;
+        }
     }
 }

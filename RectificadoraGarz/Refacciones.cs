@@ -26,5 +26,11 @@ namespace RectificadoraGarz
         {
 
         }
+
+        private void btnRefa_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Servicios();
+            formulario.Show();
+        }
     }
 }
